@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext');
+
+* {
+	padding: 0;
+	margin: 0; 
+}
+
+body {
+    font-family: 'Roboto', Verdana, Arial, sans-serif !important;
+    background: linear-gradient(#EAE0DB, #f6f5f3);   
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-attachment: fixed !important;
+    line-height: 1.42857143;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/* BODY BACKGROUNDS */
+
+/* HOME */
+#caviar {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/caviar.jpg);
+    background-size: cover;
+    background-position: center 55%;
+}
+
+#home {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/skandau-main.jpg);
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+/* SKANDAU */
+#kokaina {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/kokaina.jpg);
+	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed !important;
+}
+
+#bez-da-pie {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/bez-da-pie.jpg);
+	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed !important;
+
+}
+
+#mafia {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/mafia.jpg);
+	background-size: cover;
+	background-position: center 5%;
+    background-attachment: fixed !important;
+}
+
+#replay {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/replay-3.jpg);
+	background-size: cover;
+	background-position: center center;
+    background-attachment: fixed !important;
+}
+
+#iskam-az {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/skandau-main.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#angels {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/angels-demons.jpg);
+	background-size: cover;
+    background-position: center 75%;
+    background-attachment: fixed !important;
+}
+
+#do-moreto {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/do-moreto.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#kush-kush {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/kush-kush.jpg);
+	background-size: cover;
+	background-position: bottom;
+    background-attachment: fixed !important;
+}
+
+#ritama{
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background-size: cover;
+	background-position: bottom;
+    background-attachment: fixed !important;
+}
+
+#act-wow {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/akt-wow.jpg);
+	background-size: cover;
+	background-position: center top;
+    background-attachment: fixed !important;
+}
+
+#tv-radio{
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/tv-radio.jpg);
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed !important;
+}
+
+#se-taq {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/se-taq.jpg);
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed !important;
+}
+
+#hlqb-i-sol {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/hlqb-i-sol.jpg);
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed !important;
+}
+
+/* COLLABORATIONS */
+#no {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/no.jpg);
+    background-size: cover;
+    background-position: center 35%;
+}
+
+#karambol {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/karambol.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#sixth {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/shesto-chuvstvo.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#sega-sme-drugi {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/sega-sme-drugi.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#wound {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/wound.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#moqt-ray { 
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/moqt-ray.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#reality {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/reality.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#june-august {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/june-august.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#kinti { 
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/kinti.jpg);
+	background-size: cover;
+    background-attachment: fixed !important;
+}
+
+#animal {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/animal.jpg);
+	background-size: cover;
+    background-position: center center;
+}
+
+#bad { 
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/badmad.jpg);
+	background-size: cover;
+    background-position: center top;
+}
+
+/* Toto */
+#foreign-smile {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/foreign-smile.jpg);
+    background-size: cover;
+    background-position: center 25%;
+}
+
+#kude-popadnah {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/kude-poandah.jpg);
+    background-size: cover;
+    background-attachment: fixed !important;
+} 
+
+#are-be {  
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/are-be.jpg);
+	background-size: cover;
+    background-position: 80% 75%;
+}
+
+#knight {
+	background: linear-gradient(#EAE0DB, #f6f5f3);
+	background: url(../images/knight.jpg);
+	background-size: cover;
+    background-position: 80% 75%;
+}
+
+/* Lycho */
+#katran {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/katran.jpg);
+    background-size: cover;
+    background-position: center 68%;
+}
+
+#momiche {
+    background: linear-gradient(#EAE0DB, #f6f5f3);
+    background: url(../images/momiche.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header */
+
+.logo  {
+  width: 350px !important;
+  height: 200px !important;
+}
+
+.logo  img {
+  background: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.site-header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+/*****     *****/
+
+/* Content - Main Page */
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skandau-bogovete {
+	text-align: center;
+	margin: 50px auto;
+}
+
+.skandau-bogovete article {
+	background: rgba(255,255,255, 0.8);
+	display: inline-block;
+	color: #fa692e;
+	font-size: 1em;
+	width: 23%;	
+	padding: 10px 15px;
+	box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.45);
+	margin: 130px 20px;
+}
+
+.skandau-bogovete article img {
+	width: 90%;
+  	height: auto;
+	margin: 10px 0;
+	box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.45);
+}
+
+.content::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* Lyrics */
+
+.embed-responsive-16by9 {
+  	padding-bottom: 56.25%;
+}
+ 
+.embed-responsive {
+	position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+ 
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    box-shadow: 10px 10px 35px -5px rgba(0,0,0,0.65);
+}
+
+.date {
+	font-size: 1.1em;
+	padding: 2% 5%;
+}
+
+.date time {
+	font-weight: bold;
+}
+
+.lyrics {
+	background: rgba(255,255,255, 0.82);
+	width: 90%;
+	max-width: 90%;
+	box-shadow: 10px 10px 35px -5px rgba(0,0,0,0.65);
+	margin: 0 auto;
+}
+
+.lyrics h3 {
+	color: #fa692e;
+	text-shadow: 1px 1px #000000;
+	padding: 5% 0 0 10%;
+}
+
+.lyrics-lyrics pre {
+	background: none;
+	font-size: 1.3em;
+	border: none;
+	white-space: pre-wrap;       /* css-3 */
+ 	overflow: auto;      /* Internet Explorer 5.5+ */
+	padding: 2.5% 5% 0 10%;
+}
+
+.lyrics-lyrics span {
+	font-weight: bold;
+}
+
+
+/* Footer */
+footer, footer p, footer div, footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer {
+    background-color: #00030c;
+    color: #fa692e;
+    font-size: 1.1em;
+    width: 100%;
+	height: 130px;
+}
+
+.footer p {
+	display: inline-block;
+	float: left;
+	line-height: 130px;
+	vertical-align: middle;
+	padding-left: 4%;
+}
+
+.social {
+	background-color: #00030c;
+	float: right;
+	padding: 1% 4% 0;
+}
+
+.social h3 {
+	font-size: 1em;
+	margin-bottom: 12px; 
+}
+
+.social h3 a {
+	color: #fa692e;
+	font-weight: normal;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+.social h3 a:hover {
+	border-bottom: 1px solid #fa692e;
+	cursor: pointer;
+}
+
+.social-media {
+	background-color: #00030c;
+	text-align: center;
+	height: 50px;
+}
+.social-media li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px; 
+}
+
+.social-media li a .fa  {
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.social-media li a .fa-facebook-square:hover {
+	color: #3b599a;
+	cursor: pointer;
+}
+
+.social-media li a .fa-instagram:hover {
+	color: #cd486b;
+	cursor: pointer;
+}
+
+.social-media li a .fa-youtube-play:hover {
+	color: #df4a32;
+	cursor: pointer;
+}
+
+.social-media li a .fa-google-plus-square:hover {
+	color: #df4a32;
+	cursor: pointer;
+}
+
+
+
+
+/*********************************************************************/
+/*                        MOBILE   DEVICES                           */
+/*********************************************************************/
+
+@media (max-width: 350px) {
+  .container-fluid {
+  	padding-left: 5px !important; 
+  	padding-bottom: 10px;
+  }
+
+ .logo  {
+  width: 160px !important;
+  height: 110px !important;
+  position: relative;
+  top: 23px; 
+  padding-right: 0;
+  margin-right: 0;
+  }
+
+  .gods h4,
+  .gods p {
+   		font-size: 1.1em !important;
+   }
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+	.dropdown > a {
+		font-size: 1.1em !important;
+	}
+}
+
+
+/*** Smartpnoes ***/
+@media (min-width: 390px) and (max-width: 768px) {
+	
+}
+
+
+@media (max-width: 768px) {
+	body {
+		background: linear-gradient(#EAE0DB, #f6f5f3) !important;
+	}
+	.skandau-bogovete {
+		text-align: center;
+	}
+
+	.skandau-bogovete .gods {
+		display: block;
+		margin: 20px auto 30px;
+		width: 60%;
+	}
+
+
+	.nav-primary a {
+		font-size: 0.8em;
+	}
+
+  	.gods h4,
+  	.gods p {
+   		font-size: 1.3em;
+   }
+
+
+	/* Lyrics container */
+	.lyrics {
+		background: rgba(255,255,255, 0.73) !important;
+	}
+
+	.lyrics h3 {
+		font-size: 1.25em;
+		padding-left: 8%;
+	}
+
+	.lyrics pre {
+		font-size: 1.1em;
+		padding-left: 8%;
+	}
+	
+	/* Footer */
+  	ul.social { order: 1; }
+  	p { order: 2; }
+
+  	.footer {
+		padding: 0;
+		margin: 0;
+	}
+
+  	.footer p {
+  		background-color: #00030c;
+  		display: block;
+  		width: 100%;
+  		text-align: center;
+  		line-height: 24px !important;
+  		padding: 0;
+  	}
+
+  	.social {
+  		width: 100%;
+  		text-align: center;
+		padding-top: 0px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 960px) {
+	.logo  {
+  		width: 250px !important;
+  		height: 150px !important; 
+  }
+}
+
+/* Tablets */
+@media (max-width: 960px) {
+  .nav-primary a {
+		font-size: 0.8em;
+	}
+}
